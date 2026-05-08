@@ -12,6 +12,7 @@ function App() {
   }
 
   const renderizar = () => {
+    
     if (tela === 'login') {
       return <Login />
     } else if (tela === 'cadastro') {
